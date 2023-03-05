@@ -1,7 +1,17 @@
-# jDosbox
- Java x86 emulator based on Dosbox. This is a fork of revision 808 (the latest revision). The original source is at: https://sourceforge.net/projects/jdosbox/
+***Original ReadMe from SourceForge***
 
-### Builds
+======
+INDEX:
+======
+
+1. Builds
+2. Command Line Options
+3. Applets
+4. NE2000 Ethernet
+
+==========
+1. Builds:
+==========
 
 jdosbox.jar 
 
@@ -18,7 +28,9 @@ jdosbox_pcap.jar
   Ethernet build.  This includes experimental support for the NE2000 ethernet card via native pcap
   library.
 
-### Command line options
+========================
+2. Command Line Options:
+========================
 
 -compile <name>
 
@@ -40,7 +52,9 @@ jdosbox_pcap.jar
 
   See NE2000 Ethernet section
 
-### Applets
+===========
+3. Applets:
+===========
 
 
 ** Use an image from within a JAR.  
@@ -85,7 +99,9 @@ may change that by setting the param "background-color".
    Example: <param name="background-color" value="#FFFFFF">
 
 
-### NE2000 Ethernet
+===================
+3. NE2000 Ethernet:
+===================
 
 This requires native code which is why it is not part of the standard build
 
