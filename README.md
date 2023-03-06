@@ -90,3 +90,7 @@ may change that by setting the param "background-color".
 This requires native code which is why it is not part of the standard build
 
 See the ReadMe.txt in the pcap directory.
+                                                          
+### Compiling from source
+                                                          
+To compile the standard build (jdosbox.jar), add the contents of the src, src_j2se, src_compiler, and src_javassist folders. Then, you can either delete the javassist/util directory or add the dependencies javassist needs. Finally, build and the run the jar.
