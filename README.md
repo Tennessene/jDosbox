@@ -1,5 +1,5 @@
 # jDosbox
- Java x86 emulator based on Dosbox. This is a fork of revision 808 (the latest revision). The original source is at: https://sourceforge.net/projects/jdosbox/
+ Java x86 emulator based on Dosbox. This is a fork of revision 808 (the latest revision). The original source is at: https://sourceforge.net/projects/jdosbox/. All credit goes to James Bryant. Thanks for inspiring me with this product James!
 
 ### Builds
 
@@ -93,4 +93,4 @@ See the ReadMe.txt in the pcap directory.
                                                           
 ### Compiling from source
                                                           
-To compile the standard build (jdosbox.jar), add the contents of the src, src_j2se, src_compiler, and src_javassist folders. Then, you can either delete the javassist/util directory or add the dependencies javassist needs. Finally, build and the run the jar.
+To compile the standard build (jdosbox.jar), add the contents of the src, src_j2se, src_compiler, and src_javassist folders. Then, you can either delete the javassist/util directory or add the dependencies javassist needs. Finally, build and the run the jar. If you need any help email me at ansorensen1118@gmail.com or add me on Discord with my username: Tennessine#9355
